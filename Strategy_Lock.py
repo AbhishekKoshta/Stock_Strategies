@@ -40,7 +40,7 @@ for stk in range(len(all_stock_codes)):
 		try:
 			# temp = 42
 			temp = len(st_read)-1
-			close = st_read['Last'][temp]
+			close = st_read['Close'][temp]
 			high = st_read['High'][temp]
 			low = st_read['Low'][temp]
 			ope = st_read['Open'][temp]

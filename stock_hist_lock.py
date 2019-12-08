@@ -13,7 +13,7 @@ for stk in all_stock_codes:
 	print (count,stk)
 	try:
 		stock = get_history(symbol=stk,
-		                   start=date(2010,10,2),
+		                   start=date(2019,10,2),
 		                   end=date(2019,12,6))
 	except:
 		print ("Problem finding data for",stk)
