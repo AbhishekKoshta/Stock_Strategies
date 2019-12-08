@@ -1,0 +1,8 @@
+pandas
+requests
+bs4
+matplotlib
+openpyxl
+xlrd >= 1.0.0
+nsepy
+nsetools
